@@ -49,11 +49,11 @@
 	<controllers>
 		<joystick>
 			<controllerID>0</controllerID>
-			<steeringAxis>1</steeringAxis>
+			<steeringAxis>0</steeringAxis>
 			<invertSteeringAxis>false</invertSteeringAxis>
-			<pedalAxis>2</pedalAxis>
+			<pedalAxis>1</pedalAxis>
 			<invertPedalAxis>false</invertPedalAxis>
-			<steeringSensitivityFactor>1.0</steeringSensitivityFactor>
+			<steeringSensitivityFactor>0.2</steeringSensitivityFactor>
 			<pedalSensitivityFactor>1.0</pedalSensitivityFactor>
 			<keyAssignments>
 				<keyAssignment function="start_engine" key="BUTTON_1"/>
