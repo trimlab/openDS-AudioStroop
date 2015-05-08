@@ -65149,7 +65149,7 @@
                         </vector>
                   </translation>
             </model>
-            <model id="BLC_Test_StartSignBridge" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_StartSignBridge" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65201,7 +65201,7 @@
                         </vector>
                   </translation>
             </model>
-            <model id="BLC_Test_FinishSignBridge" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_FinishSignBridge" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65253,7 +65253,7 @@
                         </vector>
                   </translation>
             </model>
-            <model id="BLC_Test_Block0_Trial0_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial0_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65341,7 +65341,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial1_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial1_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65429,7 +65429,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial2_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial2_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65517,7 +65517,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial3_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial3_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65605,7 +65605,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial4_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial4_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65693,7 +65693,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial5_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial5_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65781,7 +65781,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial6_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial6_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65869,7 +65869,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial7_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial7_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -65957,7 +65957,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial8_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial8_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66045,7 +66045,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial9_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial9_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66133,7 +66133,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial10_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial10_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66221,7 +66221,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial11_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial11_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66309,7 +66309,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial12_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial12_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66397,7 +66397,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial13_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial13_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66485,7 +66485,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial14_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial14_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66573,7 +66573,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial15_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial15_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66661,7 +66661,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial16_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial16_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66749,7 +66749,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial17_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial17_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66837,7 +66837,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial18_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial18_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
@@ -66925,7 +66925,7 @@
                         </color>
                   </ambientLight>
             </model>
-            <model id="BLC_Test_Block0_Trial19_Container" key="Models/sign_bridges/bridge_5lane/bridge_5lane.scene" ref="">
+            <model id="BLC_Test_Block0_Trial19_Container" key="Models/sign_bridges/bridge_3lane/bridge_3lane.scene" ref="">
                   <mass>0</mass>
                   <visible>true</visible>
                   <collisionShape>none</collisionShape>
