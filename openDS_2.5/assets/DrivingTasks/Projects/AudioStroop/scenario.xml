@@ -60,25 +60,17 @@
         </traffic>
         
         <road>
-        <lane id="0">
-                  <xMin>-9.25</xMin>
-                  <xMax>-5.55</xMax>
-            </lane>
-            <lane id="1">
+            <lane id="0">
                   <xMin>-5.55</xMin>
                   <xMax>-1.85</xMax>
             </lane>
-            <lane id="2">
+            <lane id="1">
                   <xMin>-1.85</xMin>
                   <xMax>1.85</xMax>
             </lane>
-            <lane id="3">
+            <lane id="2">
                   <xMin>1.85</xMin>
                   <xMax>5.55</xMax>
-            </lane>
-            <lane id="4">
-                  <xMin>5.55</xMin>
-                  <xMax>9.25</xMax>
             </lane>
       </road>
         
