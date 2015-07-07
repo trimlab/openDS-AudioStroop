@@ -33,6 +33,7 @@ import eu.opends.main.Simulator;
 /**
  * 
  * @author Rafael Math
+ * Modified by Jaclyn Barnes to not play audio on success or failure
  */
 public class LaneChangeReactionTimer extends ReactionTimer
 {
@@ -113,7 +114,7 @@ public class LaneChangeReactionTimer extends ReactionTimer
 		//System.err.println("MISSED");
 
 		// play fail sound
-		AudioCenter.playSound(failSound);
+		//AudioCenter.playSound(failSound);
 	}
 	
 
@@ -190,7 +191,7 @@ public class LaneChangeReactionTimer extends ReactionTimer
 				trialLogger.writeLog();
 				
 				// play success sound
-				AudioCenter.playSound(successSound);
+				//AudioCenter.playSound(successSound);
 				
 				timerIsActive = false;
 			}
@@ -207,7 +208,7 @@ public class LaneChangeReactionTimer extends ReactionTimer
 				trialLogger.writeLog();
 				
 				// play fail sound
-				AudioCenter.playSound(failSound);
+				//AudioCenter.playSound(failSound);
 				
 				timerIsActive = false;
 			}
@@ -217,7 +218,7 @@ public class LaneChangeReactionTimer extends ReactionTimer
 		{
 			if(timeExceeded() || distanceExceeded())
 			{
-				AudioCenter.playSound(failSound);
+				//AudioCenter.playSound(failSound);
 				soundTimerIsActive = false;
 			}
 		}

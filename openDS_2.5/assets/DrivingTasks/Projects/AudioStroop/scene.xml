@@ -15,6 +15,34 @@
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
+		<sound id="left1" key="Sounds/AudioStroop/toneleft350msec.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="right1" key="Sounds/AudioStroop/toneright350msec.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="left2" key="Sounds/AudioStroop/consecutiveleft.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="right2" key="Sounds/AudioStroop/consecutiveright.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
 	</sounds>
 
 	<models>
@@ -67734,6 +67762,32 @@
 			</translation>
 		</model>
 
+		<model id="BLC_Test_Block0_Trial0_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>24099.04</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial0_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -67893,6 +67947,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial1_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>23957.34</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial1_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -68054,6 +68134,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial2_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>23814.58</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial2_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -68213,6 +68319,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial3_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>23664.78</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial3_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -68374,6 +68506,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial4_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>23524.59</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial4_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -68533,6 +68691,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial5_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>23382.05</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial5_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -68694,6 +68878,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial6_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>23231.55</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial6_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -68853,6 +69063,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial7_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>23081.3</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial7_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -69014,6 +69250,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial8_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>22938.9</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial8_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -69173,6 +69435,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial9_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>22792.05</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial9_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -69334,6 +69622,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial10_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>22640.01</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial10_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -69493,6 +69807,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial11_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>22487.43</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial11_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -69654,6 +69994,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial12_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>22343.63</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial12_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -69813,6 +70179,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial13_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>22174.87</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial13_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -69974,6 +70366,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial14_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>21986.87</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial14_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -70133,6 +70551,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial15_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>21843.3</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial15_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
@@ -70294,6 +70738,32 @@
 				</color>
 			</ambientLight>
 		</model>
+		<model id="BLC_Test_Block0_Trial16_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>21701.79</entry>
+				</vector>
+			</translation>
+		</model>
 		<model id="BLC_Test_Block0_Trial16_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
 			<visible>false</visible>
@@ -70453,6 +70923,32 @@
 					</vector>
 				</color>
 			</ambientLight>
+		</model>
+		<model id="BLC_Test_Block0_Trial17_Stimulus_Trigger0" key="Models/trigger/trigger.scene" ref="">
+			<mass>0</mass>
+			<visible>false</visible>
+			<collisionShape>none</collisionShape>
+			<scale>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+					<entry>1.0</entry>
+				</vector>
+			</scale>
+			<rotation quaternion="false">
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+				</vector>
+			</rotation>
+			<translation>
+				<vector jtype="java_lang_Float" size="3">
+					<entry>0.0</entry>
+					<entry>0.0</entry>
+					<entry>21553.78</entry>
+				</vector>
+			</translation>
 		</model>
 		<model id="BLC_Test_Block0_Trial17_Trigger0" key="Models/trigger/trigger.scene" ref="">
 			<mass>0</mass>
