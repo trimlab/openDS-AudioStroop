@@ -20,7 +20,7 @@
         		</tires>
         		<engine profile="">
         			<engineOn>true</engineOn>
-        			<minSpeed>20</minSpeed>
+        			<minSpeed>60</minSpeed>
 					<maxSpeed>60</maxSpeed>
 					<acceleration>3.3</acceleration>
 					<minRPM>750</minRPM>
