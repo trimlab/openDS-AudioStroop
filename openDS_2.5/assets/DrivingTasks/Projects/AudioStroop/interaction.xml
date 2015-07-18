@@ -18,15 +18,15 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial0_Trigger0_makeVisible_BLC_Test_Block0_Trial0_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial0_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial0_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial0_ContainerElement2"/>
 			</action>
@@ -47,33 +47,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial0_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial1_Trigger0_makeVisible_BLC_Test_Block0_Trial1_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial1_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial1_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial1_ContainerElement2"/>
 			</action>
@@ -94,33 +81,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial1_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_makeVisible_BLC_Test_Block0_Trial2_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial2_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial2_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial2_ContainerElement2"/>
 			</action>
@@ -141,33 +115,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_makeVisible_BLC_Test_Block0_Trial3_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial3_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial3_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial3_ContainerElement2"/>
 			</action>
@@ -188,33 +149,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_makeVisible_BLC_Test_Block0_Trial4_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial4_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial4_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial4_ContainerElement2"/>
 			</action>
@@ -235,33 +183,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_makeVisible_BLC_Test_Block0_Trial5_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial5_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial5_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial5_ContainerElement2"/>
 			</action>
@@ -282,33 +217,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial6_Trigger0_makeVisible_BLC_Test_Block0_Trial6_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial6_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial6_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial6_ContainerElement2"/>
 			</action>
@@ -329,33 +251,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial6_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial7_Trigger0_makeVisible_BLC_Test_Block0_Trial7_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial7_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial7_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial7_ContainerElement2"/>
 			</action>
@@ -376,33 +285,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial7_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial8_Trigger0_makeVisible_BLC_Test_Block0_Trial8_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial8_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial8_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial8_ContainerElement2"/>
 			</action>
@@ -423,33 +319,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial8_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial9_Trigger0_makeVisible_BLC_Test_Block0_Trial9_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial9_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial9_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial9_ContainerElement2"/>
 			</action>
@@ -470,33 +353,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial9_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial10_Trigger0_makeVisible_BLC_Test_Block0_Trial10_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial10_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial10_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial10_ContainerElement2"/>
 			</action>
@@ -517,33 +387,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial10_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial11_Trigger0_makeVisible_BLC_Test_Block0_Trial11_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial11_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial11_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial11_ContainerElement2"/>
 			</action>
@@ -564,33 +421,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial11_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial12_Trigger0_makeVisible_BLC_Test_Block0_Trial12_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial12_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial12_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial12_ContainerElement2"/>
 			</action>
@@ -611,33 +455,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial12_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial13_Trigger0_makeVisible_BLC_Test_Block0_Trial13_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial13_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial13_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial13_ContainerElement2"/>
 			</action>
@@ -658,33 +489,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial13_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_makeVisible_BLC_Test_Block0_Trial14_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial14_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial14_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial14_ContainerElement2"/>
 			</action>
@@ -705,33 +523,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial15_Trigger0_makeVisible_BLC_Test_Block0_Trial15_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial15_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial15_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial15_ContainerElement2"/>
 			</action>
@@ -752,33 +557,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial15_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_makeVisible_BLC_Test_Block0_Trial16_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial16_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial16_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial16_ContainerElement2"/>
 			</action>
@@ -799,33 +591,20 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial17_Trigger0_makeVisible_BLC_Test_Block0_Trial17_ContainerElements" ref="">
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial17_ContainerElement0"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial17_ContainerElement1"/>
 			</action>
-			<action delay="0.1" id="manipulateObject" repeat="4">
+			<action delay="0.0" id="manipulateObject" repeat="1">
 				<parameter name="visible" value="true"/>
 				<parameter name="id" value="BLC_Test_Block0_Trial17_ContainerElement2"/>
 			</action>
@@ -846,19 +625,6 @@
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial17_Trigger0_Sound_Stimulus" ref="">
-			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
-				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
-				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
-				<parameter name="successSound" value="good"/>
-				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
-				<parameter name="failSound" value="fail"/>
-			</action>
 			<action delay="0.0" id="playSound" repeat="1">
 				<parameter name="soundID" value="left1"/>
 			</action>
