@@ -25,7 +25,7 @@ import java.util.Map.Entry;
 import com.jme3.math.FastMath;
 import com.jme3.math.Vector3f;
 
-import eu.opends.audio.AudioCenter;
+//import eu.opends.audio.AudioCenter;
 import eu.opends.environment.LaneLimit;
 import eu.opends.jasperReport.ReactionLogger;
 import eu.opends.main.Simulator;
@@ -50,8 +50,8 @@ public class LaneChangeReactionTimer extends ReactionTimer
 	private float taskCompletionDistance;
 	private boolean allowBrake;
 	private float holdLaneFor;
-	private String failSound;
-	private String successSound;
+	//private String failSound;
+	//private String successSound;
 	
 	private boolean soundTimerIsActive = false;
 	
@@ -80,8 +80,8 @@ public class LaneChangeReactionTimer extends ReactionTimer
 			this.taskCompletionDistance = taskCompletionDistance;
 			this.allowBrake = allowBrake;
 			this.holdLaneFor = holdLaneFor;
-			this.failSound = failSound;
-			this.successSound = successSound;
+			//this.failSound = failSound;
+			//this.successSound = successSound;
 			this.steeringAngle = 0;
 			
 			if(targetLane.equals("1") || targetLane.equals("3"))
@@ -101,7 +101,7 @@ public class LaneChangeReactionTimer extends ReactionTimer
 			this.taskCompletionTime = taskCompletionTime;
 			this.startPosition = sim.getCar().getPosition();
 			this.taskCompletionDistance = taskCompletionDistance;
-			this.failSound = failSound;
+			//this.failSound = failSound;
 			
 			soundTimerIsActive = true;
 		}
