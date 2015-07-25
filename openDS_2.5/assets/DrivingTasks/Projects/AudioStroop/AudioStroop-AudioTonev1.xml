@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
-<comment>Settings file for an audio Stroop effect experiment. Design based on the ISO lane changing task.</comment>
-<entry key="interaction">interaction.xml</entry>
+<comment>Audio tone condition. Track version 1.</comment>
+<entry key="interaction">interaction-AudioTonev1.xml</entry>
 <entry key="verbose">false</entry>
 <entry key="scenario">scenario.xml</entry>
-<entry key="settings">settings.xml</entry>
-<entry key="scene">scene.xml</entry>
+<entry key="settings">settings_g08.xml</entry>
+<entry key="scene">scene-AudioTonev1.xml</entry>
 </properties>
