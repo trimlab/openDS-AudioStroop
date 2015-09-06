@@ -10,6 +10,7 @@
 			</action>
 		</activity>
 		<activity id="End_stopRecording" ref="">
+			<action delay="0.0" id="stopRecording" repeat="4"/>
 		</activity>
 		<activity id="End_pauseSimulation" ref="">
 			<action delay="0.0" id="pauseSimulation" repeat="4">
@@ -38,7 +39,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -73,7 +74,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -103,12 +104,12 @@
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
+				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="1"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -118,7 +119,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_makeVisible_BLC_Test_Block0_Trial3_ContainerElements" ref="">
@@ -138,12 +139,12 @@
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="0"/>
+				<parameter name="targetLane" value="0"/>
+				<parameter name="startLane" value="2"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -153,7 +154,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left2"/>
+				<parameter name="soundID" value="right2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_makeVisible_BLC_Test_Block0_Trial4_ContainerElements" ref="">
@@ -173,12 +174,12 @@
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="2"/>
+				<parameter name="targetLane" value="2"/>
+				<parameter name="startLane" value="0"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -188,7 +189,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right2"/>
+				<parameter name="soundID" value="left2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_makeVisible_BLC_Test_Block0_Trial5_ContainerElements" ref="">
@@ -208,12 +209,12 @@
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="0"/>
+				<parameter name="targetLane" value="0"/>
+				<parameter name="startLane" value="2"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -223,7 +224,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left2"/>
+				<parameter name="soundID" value="right2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial6_Trigger0_makeVisible_BLC_Test_Block0_Trial6_ContainerElements" ref="">
@@ -244,11 +245,11 @@
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="2"/>
+				<parameter name="startLane" value="0"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -258,7 +259,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial6_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial7_Trigger0_makeVisible_BLC_Test_Block0_Trial7_ContainerElements" ref="">
@@ -283,7 +284,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -318,7 +319,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -353,7 +354,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -388,7 +389,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -423,7 +424,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -458,7 +459,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -493,7 +494,7 @@
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -523,12 +524,12 @@
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
+				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="1"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -538,7 +539,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial15_Trigger0_makeVisible_BLC_Test_Block0_Trial15_ContainerElements" ref="">
@@ -559,11 +560,11 @@
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="0"/>
+				<parameter name="startLane" value="2"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -573,7 +574,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial15_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_makeVisible_BLC_Test_Block0_Trial16_ContainerElements" ref="">
@@ -593,12 +594,12 @@
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
+				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="1"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -608,7 +609,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="left1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial17_Trigger0_makeVisible_BLC_Test_Block0_Trial17_ContainerElements" ref="">
@@ -629,11 +630,11 @@
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="0"/>
+				<parameter name="startLane" value="2"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
-				<parameter name="allowBreak" value="true"/>
+				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
 				<parameter name="holdLaneFor" value="2000"/>
@@ -643,7 +644,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial17_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="right1"/>
 			</action>
 		</activity>
 	</activities>
@@ -665,234 +666,234 @@
 		<trigger id="BLC_Test_Block0_Trial0_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial0_Trigger0_makeVisible_BLC_Test_Block0_Trial0_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial0_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial0_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial0_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial0_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial0_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial0_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial1_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial1_Trigger0_makeVisible_BLC_Test_Block0_Trial1_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial1_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial1_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial1_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial1_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial1_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial1_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial2_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial2_Trigger0_makeVisible_BLC_Test_Block0_Trial2_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial2_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial2_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial2_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial2_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial2_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial2_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial3_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial3_Trigger0_makeVisible_BLC_Test_Block0_Trial3_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial3_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial3_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial3_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial3_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial3_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial3_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial4_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial4_Trigger0_makeVisible_BLC_Test_Block0_Trial4_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial4_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial4_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial4_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial4_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial4_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial4_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial5_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial5_Trigger0_makeVisible_BLC_Test_Block0_Trial5_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial5_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial5_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial5_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial5_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial5_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial5_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial6_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial6_Trigger0_makeVisible_BLC_Test_Block0_Trial6_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial6_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial6_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial6_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial6_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial6_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial6_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial7_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial7_Trigger0_makeVisible_BLC_Test_Block0_Trial7_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial7_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial7_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial7_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial7_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial7_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial7_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial8_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial8_Trigger0_makeVisible_BLC_Test_Block0_Trial8_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial8_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial8_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial8_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial8_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial8_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial8_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial9_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial9_Trigger0_makeVisible_BLC_Test_Block0_Trial9_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial9_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial9_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial9_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial9_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial9_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial9_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial10_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial10_Trigger0_makeVisible_BLC_Test_Block0_Trial10_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial10_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial10_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial10_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial10_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial10_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial10_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial11_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial11_Trigger0_makeVisible_BLC_Test_Block0_Trial11_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial11_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial11_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial11_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial11_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial11_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial11_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial12_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial12_Trigger0_makeVisible_BLC_Test_Block0_Trial12_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial12_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial12_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial12_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial12_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial12_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial12_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial13_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial13_Trigger0_makeVisible_BLC_Test_Block0_Trial13_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial13_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial13_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial13_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial13_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial13_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial13_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial14_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial14_Trigger0_makeVisible_BLC_Test_Block0_Trial14_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial14_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial14_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial14_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial14_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial14_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial14_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial15_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial15_Trigger0_makeVisible_BLC_Test_Block0_Trial15_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial15_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial15_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial15_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial15_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial15_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial15_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial16_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial16_Trigger0_makeVisible_BLC_Test_Block0_Trial16_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial16_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial16_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial16_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial16_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial16_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial16_Stimulus_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial17_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial17_Trigger0_makeVisible_BLC_Test_Block0_Trial17_ContainerElements"/>
-				<activity ref="BLC_Test_Block0_Trial17_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial17_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial17_Stimulus_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial17_Trigger0_Sound_Stimulus"/>
+				<activity ref="BLC_Test_Block0_Trial17_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial17_Stimulus_Trigger0</condition>
 		</trigger>

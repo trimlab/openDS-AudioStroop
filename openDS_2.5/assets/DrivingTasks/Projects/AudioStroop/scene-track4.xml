@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scene xmlns="http://opends.eu/drivingtask/scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://opends.eu/drivingtask/scene ../../Schema/scene.xsd">
 	<sounds>
-		<sound id="good" key="Sounds/Effects/Beep.ogg">
+		<sound id="left1" key="Sounds/AudioStroop/TTSleft500-pancenter.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="fail" key="Sounds/Effects/Beep.ogg">
+		<sound id="right1" key="Sounds/AudioStroop/TTSright500-pancenter.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="left1" key="Sounds/AudioStroop/toneleft350msec.wav">
+		<sound id="left2" key="Sounds/AudioStroop/lef-left500-pancenter.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="right1" key="Sounds/AudioStroop/toneright350msec.wav">
-			<positional value="false"/>
-			<directional value="false"/>
-			<loop>false</loop>
-			<volume>0.5</volume>
-			<pitch>1.0</pitch>
-		</sound>
-		<sound id="left2" key="Sounds/AudioStroop/consecutiveleft.wav">
-			<positional value="false"/>
-			<directional value="false"/>
-			<loop>false</loop>
-			<volume>0.5</volume>
-			<pitch>1.0</pitch>
-		</sound>
-		<sound id="right2" key="Sounds/AudioStroop/consecutiveright.wav">
+		<sound id="right2" key="Sounds/AudioStroop/righ-right500-pancenter.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
@@ -65197,7 +65183,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21600.0</entry>
+					<entry>21500.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65223,7 +65209,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21600.0</entry>
+					<entry>21500.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65249,7 +65235,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21600.0</entry>
+					<entry>21500.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65275,7 +65261,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24249.04</entry>
+					<entry>24147.43</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65301,7 +65287,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24249.04</entry>
+					<entry>24135.74</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65327,7 +65313,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24195.74</entry>
+					<entry>24095.74</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65353,7 +65339,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>24195.74</entry>
+					<entry>24095.74</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65389,7 +65375,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24195.74</entry>
+					<entry>24095.74</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65425,7 +65411,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>24195.74</entry>
+					<entry>24095.74</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65461,7 +65447,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24107.34</entry>
+					<entry>24005.73</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65487,7 +65473,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24107.34</entry>
+					<entry>23994.04</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65513,7 +65499,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24054.04</entry>
+					<entry>23954.04</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65539,7 +65525,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>24054.04</entry>
+					<entry>23954.04</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65575,7 +65561,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24054.04</entry>
+					<entry>23954.04</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65611,7 +65597,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>24054.04</entry>
+					<entry>23954.04</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65647,7 +65633,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23964.58</entry>
+					<entry>23862.97</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65673,7 +65659,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23964.58</entry>
+					<entry>23851.28</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65699,7 +65685,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23911.28</entry>
+					<entry>23811.28</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65725,7 +65711,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>23911.28</entry>
+					<entry>23811.28</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65761,7 +65747,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23911.28</entry>
+					<entry>23811.28</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65797,7 +65783,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>23911.28</entry>
+					<entry>23811.28</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65833,7 +65819,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23814.78</entry>
+					<entry>23713.17</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65859,7 +65845,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23814.78</entry>
+					<entry>23701.48</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65885,7 +65871,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23761.48</entry>
+					<entry>23661.48</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65911,7 +65897,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>23761.48</entry>
+					<entry>23661.48</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65947,7 +65933,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23761.48</entry>
+					<entry>23661.48</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -65983,7 +65969,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>23761.48</entry>
+					<entry>23661.48</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66019,7 +66005,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23674.59</entry>
+					<entry>23572.98</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66045,7 +66031,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23674.59</entry>
+					<entry>23561.29</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66071,7 +66057,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23621.29</entry>
+					<entry>23521.29</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66097,7 +66083,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>23621.29</entry>
+					<entry>23521.29</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66133,7 +66119,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23621.29</entry>
+					<entry>23521.29</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66169,7 +66155,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>23621.29</entry>
+					<entry>23521.29</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66205,7 +66191,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23532.05</entry>
+					<entry>23430.44</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66231,7 +66217,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23532.05</entry>
+					<entry>23418.75</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66257,7 +66243,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23478.75</entry>
+					<entry>23378.75</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66283,7 +66269,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>23478.75</entry>
+					<entry>23378.75</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66319,7 +66305,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23478.75</entry>
+					<entry>23378.75</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66355,7 +66341,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>23478.75</entry>
+					<entry>23378.75</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66391,7 +66377,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23381.55</entry>
+					<entry>23279.94</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66417,7 +66403,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23381.55</entry>
+					<entry>23268.25</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66443,7 +66429,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23328.25</entry>
+					<entry>23228.25</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66469,7 +66455,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>23328.25</entry>
+					<entry>23228.25</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66505,7 +66491,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23328.25</entry>
+					<entry>23228.25</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66541,7 +66527,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>23328.25</entry>
+					<entry>23228.25</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66577,7 +66563,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23231.3</entry>
+					<entry>23129.69</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66603,7 +66589,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23231.3</entry>
+					<entry>23118.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66629,7 +66615,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23178.0</entry>
+					<entry>23078.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66655,7 +66641,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>23178.0</entry>
+					<entry>23078.0</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66691,7 +66677,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23178.0</entry>
+					<entry>23078.0</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66727,7 +66713,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>23178.0</entry>
+					<entry>23078.0</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66763,7 +66749,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23088.9</entry>
+					<entry>22987.29</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66789,7 +66775,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23088.9</entry>
+					<entry>22975.6</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66815,7 +66801,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23035.6</entry>
+					<entry>22935.6</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66841,7 +66827,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>23035.6</entry>
+					<entry>22935.6</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66877,7 +66863,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23035.6</entry>
+					<entry>22935.6</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66913,7 +66899,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>23035.6</entry>
+					<entry>22935.6</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -66949,7 +66935,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22942.05</entry>
+					<entry>22840.44</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66975,7 +66961,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22942.05</entry>
+					<entry>22828.75</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67001,7 +66987,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22888.75</entry>
+					<entry>22788.75</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67027,7 +67013,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>22888.75</entry>
+					<entry>22788.75</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67063,7 +67049,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22888.75</entry>
+					<entry>22788.75</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67099,7 +67085,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>22888.75</entry>
+					<entry>22788.75</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67135,7 +67121,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22790.01</entry>
+					<entry>22688.4</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67161,7 +67147,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22790.01</entry>
+					<entry>22676.71</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67187,7 +67173,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22736.71</entry>
+					<entry>22636.71</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67213,7 +67199,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>22736.71</entry>
+					<entry>22636.71</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67249,7 +67235,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22736.71</entry>
+					<entry>22636.71</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67285,7 +67271,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>22736.71</entry>
+					<entry>22636.71</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67321,7 +67307,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22637.43</entry>
+					<entry>22535.82</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67347,7 +67333,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22637.43</entry>
+					<entry>22524.13</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67373,7 +67359,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22584.13</entry>
+					<entry>22484.13</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67399,7 +67385,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>22584.13</entry>
+					<entry>22484.13</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67435,7 +67421,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22584.13</entry>
+					<entry>22484.13</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67471,7 +67457,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>22584.13</entry>
+					<entry>22484.13</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67507,7 +67493,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22493.63</entry>
+					<entry>22392.02</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67533,7 +67519,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22493.63</entry>
+					<entry>22380.33</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67559,7 +67545,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22440.33</entry>
+					<entry>22340.33</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67585,7 +67571,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>22440.33</entry>
+					<entry>22340.33</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67621,7 +67607,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22440.33</entry>
+					<entry>22340.33</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67657,7 +67643,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>22440.33</entry>
+					<entry>22340.33</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67693,7 +67679,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22324.87</entry>
+					<entry>22223.26</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67719,7 +67705,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22324.87</entry>
+					<entry>22211.57</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67745,7 +67731,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22271.57</entry>
+					<entry>22171.57</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67771,7 +67757,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>22271.57</entry>
+					<entry>22171.57</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67807,7 +67793,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22271.57</entry>
+					<entry>22171.57</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67843,7 +67829,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>22271.57</entry>
+					<entry>22171.57</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67879,7 +67865,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22136.87</entry>
+					<entry>22035.26</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67905,7 +67891,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22136.87</entry>
+					<entry>22023.57</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67931,7 +67917,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22083.57</entry>
+					<entry>21983.57</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67957,7 +67943,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>22083.57</entry>
+					<entry>21983.57</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -67993,7 +67979,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22083.57</entry>
+					<entry>21983.57</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68029,7 +68015,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>22083.57</entry>
+					<entry>21983.57</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68065,7 +68051,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21993.3</entry>
+					<entry>21891.69</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68091,7 +68077,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21993.3</entry>
+					<entry>21880.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68117,7 +68103,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21940.0</entry>
+					<entry>21840.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68143,7 +68129,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>21940.0</entry>
+					<entry>21840.0</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68179,7 +68165,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21940.0</entry>
+					<entry>21840.0</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68215,7 +68201,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>21940.0</entry>
+					<entry>21840.0</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68251,7 +68237,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21851.79</entry>
+					<entry>21750.18</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68277,7 +68263,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21851.79</entry>
+					<entry>21738.49</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68303,7 +68289,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21798.49</entry>
+					<entry>21698.49</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68329,7 +68315,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>21798.49</entry>
+					<entry>21698.49</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68365,7 +68351,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21798.49</entry>
+					<entry>21698.49</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68401,7 +68387,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>21798.49</entry>
+					<entry>21698.49</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68437,7 +68423,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21703.78</entry>
+					<entry>21602.17</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68463,7 +68449,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21703.78</entry>
+					<entry>21590.48</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68489,7 +68475,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21650.48</entry>
+					<entry>21550.48</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68515,7 +68501,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>3.7</entry>
 					<entry>0.0</entry>
-					<entry>21650.48</entry>
+					<entry>21550.48</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68551,7 +68537,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21650.48</entry>
+					<entry>21550.48</entry>
 				</vector>
 			</translation>
 			<ambientLight>
@@ -68587,7 +68573,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>-3.7</entry>
 					<entry>0.0</entry>
-					<entry>21650.48</entry>
+					<entry>21550.48</entry>
 				</vector>
 			</translation>
 			<ambientLight>
