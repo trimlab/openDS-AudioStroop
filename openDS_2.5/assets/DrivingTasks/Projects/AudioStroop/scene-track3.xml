@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scene xmlns="http://opends.eu/drivingtask/scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://opends.eu/drivingtask/scene ../../Schema/scene.xsd">
 	<sounds>
-		<sound id="left1" key="Sounds/AudioStroop/TTSleft350-pancenter.wav">
+		<sound id="L1panleft" key="Sounds/AudioStroop/toneleft350msec.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="right1" key="Sounds/AudioStroop/TTSright350-pancenter.wav">
+		<sound id="R1panright" key="Sounds/AudioStroop/toneright350msec.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="left2" key="Sounds/AudioStroop/lef-left350-pancenter.wav">
+		<sound id="L2panleft" key="Sounds/AudioStroop/consecutiveleft.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="right2" key="Sounds/AudioStroop/righ-right350-pancenter.wav">
+		<sound id="R2panright" key="Sounds/AudioStroop/consecutiveright.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
@@ -65261,7 +65261,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>24139.08</entry>
+					<entry>24135.74</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65447,7 +65447,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23997.38</entry>
+					<entry>23994.04</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65633,7 +65633,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23854.62</entry>
+					<entry>23851.28</entry>
 				</vector>
 			</translation>
 		</model>
@@ -65819,7 +65819,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23704.82</entry>
+					<entry>23701.48</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66005,7 +66005,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23564.63</entry>
+					<entry>23561.29</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66191,7 +66191,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23422.09</entry>
+					<entry>23418.75</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66377,7 +66377,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23271.59</entry>
+					<entry>23268.25</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66563,7 +66563,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>23121.34</entry>
+					<entry>23118.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66749,7 +66749,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22978.94</entry>
+					<entry>22975.6</entry>
 				</vector>
 			</translation>
 		</model>
@@ -66935,7 +66935,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22832.09</entry>
+					<entry>22828.75</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67121,7 +67121,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22680.05</entry>
+					<entry>22676.71</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67307,7 +67307,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22527.47</entry>
+					<entry>22524.13</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67493,7 +67493,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22383.67</entry>
+					<entry>22380.33</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67679,7 +67679,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22214.91</entry>
+					<entry>22211.57</entry>
 				</vector>
 			</translation>
 		</model>
@@ -67865,7 +67865,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>22026.91</entry>
+					<entry>22023.57</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68051,7 +68051,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21883.34</entry>
+					<entry>21880.0</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68237,7 +68237,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21741.83</entry>
+					<entry>21738.49</entry>
 				</vector>
 			</translation>
 		</model>
@@ -68423,7 +68423,7 @@
 				<vector jtype="java_lang_Float" size="3">
 					<entry>0.0</entry>
 					<entry>0.0</entry>
-					<entry>21593.82</entry>
+					<entry>21590.48</entry>
 				</vector>
 			</translation>
 		</model>

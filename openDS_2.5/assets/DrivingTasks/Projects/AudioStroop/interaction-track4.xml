@@ -49,7 +49,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial0_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="R1panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial1_Trigger0_makeVisible_BLC_Test_Block0_Trial1_ContainerElements" ref="">
@@ -84,7 +84,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial1_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="L1panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_makeVisible_BLC_Test_Block0_Trial2_ContainerElements" ref="">
@@ -104,7 +104,7 @@
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
+				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="1"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
@@ -119,7 +119,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="L1panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_makeVisible_BLC_Test_Block0_Trial3_ContainerElements" ref="">
@@ -139,8 +139,8 @@
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="2"/>
+				<parameter name="targetLane" value="2"/>
+				<parameter name="startLane" value="0"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
@@ -154,7 +154,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right2"/>
+				<parameter name="soundID" value="L2panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_makeVisible_BLC_Test_Block0_Trial4_ContainerElements" ref="">
@@ -174,8 +174,8 @@
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
-				<parameter name="startLane" value="0"/>
+				<parameter name="targetLane" value="0"/>
+				<parameter name="startLane" value="2"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
@@ -189,7 +189,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left2"/>
+				<parameter name="soundID" value="L2panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_makeVisible_BLC_Test_Block0_Trial5_ContainerElements" ref="">
@@ -209,8 +209,8 @@
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="0"/>
-				<parameter name="startLane" value="2"/>
+				<parameter name="targetLane" value="2"/>
+				<parameter name="startLane" value="0"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
@@ -224,7 +224,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right2"/>
+				<parameter name="soundID" value="R2panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial6_Trigger0_makeVisible_BLC_Test_Block0_Trial6_ContainerElements" ref="">
@@ -245,7 +245,7 @@
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="0"/>
+				<parameter name="startLane" value="2"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
@@ -259,7 +259,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial6_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="R1panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial7_Trigger0_makeVisible_BLC_Test_Block0_Trial7_ContainerElements" ref="">
@@ -294,7 +294,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial7_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="R1panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial8_Trigger0_makeVisible_BLC_Test_Block0_Trial8_ContainerElements" ref="">
@@ -329,7 +329,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial8_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right2"/>
+				<parameter name="soundID" value="L2panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial9_Trigger0_makeVisible_BLC_Test_Block0_Trial9_ContainerElements" ref="">
@@ -364,7 +364,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial9_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left2"/>
+				<parameter name="soundID" value="R2panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial10_Trigger0_makeVisible_BLC_Test_Block0_Trial10_ContainerElements" ref="">
@@ -399,7 +399,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial10_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right2"/>
+				<parameter name="soundID" value="L2panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial11_Trigger0_makeVisible_BLC_Test_Block0_Trial11_ContainerElements" ref="">
@@ -434,7 +434,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial11_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="L1panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial12_Trigger0_makeVisible_BLC_Test_Block0_Trial12_ContainerElements" ref="">
@@ -469,7 +469,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial12_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="L1panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial13_Trigger0_makeVisible_BLC_Test_Block0_Trial13_ContainerElements" ref="">
@@ -504,7 +504,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial13_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="L1panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_makeVisible_BLC_Test_Block0_Trial14_ContainerElements" ref="">
@@ -524,7 +524,7 @@
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
+				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="1"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
@@ -539,7 +539,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="L1panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial15_Trigger0_makeVisible_BLC_Test_Block0_Trial15_ContainerElements" ref="">
@@ -560,7 +560,7 @@
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="2"/>
+				<parameter name="startLane" value="0"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
@@ -574,7 +574,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial15_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="R1panleft"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_makeVisible_BLC_Test_Block0_Trial16_ContainerElements" ref="">
@@ -594,7 +594,7 @@
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_setupBrakeLaneChangeReactionTimer" ref="">
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
-				<parameter name="targetLane" value="2"/>
+				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="1"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
@@ -609,7 +609,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial16_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="left1"/>
+				<parameter name="soundID" value="R1panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial17_Trigger0_makeVisible_BLC_Test_Block0_Trial17_ContainerElements" ref="">
@@ -630,7 +630,7 @@
 			<action delay="0.0" id="setupLaneChangeReactionTimer" repeat="1">
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
-				<parameter name="startLane" value="2"/>
+				<parameter name="startLane" value="0"/>
 				<parameter name="taskCompletionAfterDistance" value="117"/>
 				<parameter name="taskCompletionAfterTime" value="7000"/>
 				<parameter name="timerID" value="timer1"/>
@@ -644,7 +644,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial17_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="right1"/>
+				<parameter name="soundID" value="R1panleft"/>
 			</action>
 		</activity>
 	</activities>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
-<comment>Tone 350 ms, SOA 550 ms</comment>
+<comment>Tone 350ms SOA 0 40m</comment>
 <entry key="interaction">interaction-track1.xml</entry>
 <entry key="verbose">false</entry>
 <entry key="scenario">scenario.xml</entry>
