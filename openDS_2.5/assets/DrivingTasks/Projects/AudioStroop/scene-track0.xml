@@ -1,28 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scene xmlns="http://opends.eu/drivingtask/scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://opends.eu/drivingtask/scene ../../Schema/scene.xsd">
 	<sounds>
-		<sound id="L1panleft" key="Sounds/AudioStroop/toneleft350msec.wav">
+		<sound id="toneL1" key="Sounds/AudioStroop/Tone350/left1.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="R1panright" key="Sounds/AudioStroop/toneright350msec.wav">
+		<sound id="toneR1" key="Sounds/AudioStroop/Tone350/right1.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="L2panleft" key="Sounds/AudioStroop/consecutiveleft.wav">
+		<sound id="toneL2" key="Sounds/AudioStroop/Tone350/left2.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
 		</sound>
-		<sound id="R2panright" key="Sounds/AudioStroop/consecutiveright.wav">
+		<sound id="toneR2" key="Sounds/AudioStroop/Tone350/right2.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsL1panleft" key="Sounds/AudioStroop/TTS350/left1left.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsR1panright" key="Sounds/AudioStroop/TTS350/right1right.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsL2panleft" key="Sounds/AudioStroop/TTS350/left2left.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsR2panright" key="Sounds/AudioStroop/TTS350/right2right.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsL1panright" key="Sounds/AudioStroop/TTS350/left1right.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsR1panleft" key="Sounds/AudioStroop/TTS350/right1left.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsL2panright" key="Sounds/AudioStroop/TTS350/left2right.wav">
+			<positional value="false"/>
+			<directional value="false"/>
+			<loop>false</loop>
+			<volume>0.5</volume>
+			<pitch>1.0</pitch>
+		</sound>
+		<sound id="ttsR2panleft" key="Sounds/AudioStroop/TTS350/right2left.wav">
 			<positional value="false"/>
 			<directional value="false"/>
 			<loop>false</loop>

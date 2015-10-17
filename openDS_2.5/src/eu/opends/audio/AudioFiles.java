@@ -55,7 +55,7 @@ public class AudioFiles
 		audioNodeList = Simulator.getDrivingTask().getSceneLoader().getAudioNodes();
 		
 		addAudioFile("engineStart", "Sounds/Effects/start2.wav", false, 0.25f, 1f);
-		addAudioFile("engineIdle", "Sounds/Effects/idle2.wav", true, 0.25f, 1f);
+		addAudioFile("engineIdle", "Sounds/Effects/idle.wav", true, 0.25f, 1f);
 		addAudioFile("engineStop", "Sounds/Effects/stop2.wav", false, 0.25f, 1f);
 		
 		addAudioFile("collision",  "Sounds/Effects/collision.wav", false, 0.5f, 1f);
