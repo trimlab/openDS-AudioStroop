@@ -56,6 +56,7 @@
 			<loop>false</loop>
 			<volume>0.5</volume>
 			<pitch>1.0</pitch>
+		</sound>
 	</sounds>
 	<models>
 		<model id="grass" key="Scenes/land_plain_50x5/land_plain.scene" ref="">
