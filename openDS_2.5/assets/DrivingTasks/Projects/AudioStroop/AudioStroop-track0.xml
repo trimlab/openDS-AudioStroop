@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
-<comment>Training track</comment>
+<comment>Training scenario</comment>
 <entry key="interaction">interaction-track0.xml</entry>
 <entry key="verbose">false</entry>
 <entry key="scenario">scenario.xml</entry>

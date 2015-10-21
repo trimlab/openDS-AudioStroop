@@ -189,7 +189,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="toneR2"/>
+				<parameter name="soundID" value="ttsR2panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial5_Trigger0_makeVisible_BLC_Test_Block0_Trial5_ContainerElements" ref="">
@@ -539,7 +539,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="toneL1"/>
+				<parameter name="soundID" value="ttsL1panright"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial15_Trigger0_makeVisible_BLC_Test_Block0_Trial15_ContainerElements" ref="">
