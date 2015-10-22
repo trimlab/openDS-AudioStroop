@@ -576,108 +576,126 @@
 		<trigger id="BLC_Test_Block0_Trial0_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial0_Trigger0_makeVisible_BLC_Test_Block0_Trial0_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial0_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial0_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial1_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial1_Trigger0_makeVisible_BLC_Test_Block0_Trial1_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial1_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial1_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial2_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial2_Trigger0_makeVisible_BLC_Test_Block0_Trial2_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial2_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial2_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial3_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial3_Trigger0_makeVisible_BLC_Test_Block0_Trial3_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial3_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial3_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial4_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial4_Trigger0_makeVisible_BLC_Test_Block0_Trial4_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial4_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial4_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial5_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial5_Trigger0_makeVisible_BLC_Test_Block0_Trial5_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial5_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial5_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial6_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial6_Trigger0_makeVisible_BLC_Test_Block0_Trial6_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial6_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial6_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial7_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial7_Trigger0_makeVisible_BLC_Test_Block0_Trial7_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial7_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial7_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial8_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial8_Trigger0_makeVisible_BLC_Test_Block0_Trial8_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial8_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial8_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial9_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial9_Trigger0_makeVisible_BLC_Test_Block0_Trial9_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial9_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial9_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial10_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial10_Trigger0_makeVisible_BLC_Test_Block0_Trial10_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial10_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial10_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial11_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial11_Trigger0_makeVisible_BLC_Test_Block0_Trial11_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial11_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial11_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial12_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial12_Trigger0_makeVisible_BLC_Test_Block0_Trial12_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial12_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial12_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial13_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial13_Trigger0_makeVisible_BLC_Test_Block0_Trial13_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial13_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial13_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial14_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial14_Trigger0_makeVisible_BLC_Test_Block0_Trial14_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial14_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial14_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial15_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial15_Trigger0_makeVisible_BLC_Test_Block0_Trial15_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial15_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial15_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial16_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial16_Trigger0_makeVisible_BLC_Test_Block0_Trial16_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial16_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial16_Trigger0</condition>
 		</trigger>
 		<trigger id="BLC_Test_Block0_Trial17_Trigger0" priority="1">
 			<activities>
 				<activity ref="BLC_Test_Block0_Trial17_Trigger0_makeVisible_BLC_Test_Block0_Trial17_ContainerElements"/>
+				<activity ref="BLC_Test_Block0_Trial17_Trigger0_setupBrakeLaneChangeReactionTimer"/>
 			</activities>
 			<condition>collideWith:BLC_Test_Block0_Trial17_Trigger0</condition>
 		</trigger>
