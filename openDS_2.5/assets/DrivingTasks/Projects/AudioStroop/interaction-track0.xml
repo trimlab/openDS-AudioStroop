@@ -36,13 +36,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 1"/>
 			</action>
@@ -71,13 +71,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
 				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 2"/>
 			</action>
@@ -106,13 +106,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 3"/>
 			</action>
@@ -141,13 +141,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 4"/>
 			</action>
@@ -176,13 +176,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 5"/>
 			</action>
@@ -211,13 +211,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 6"/>
 			</action>
@@ -246,13 +246,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
 				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 7"/>
 			</action>
@@ -281,13 +281,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 8"/>
 			</action>
@@ -316,13 +316,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 9"/>
 			</action>
@@ -351,13 +351,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 10"/>
 			</action>
@@ -386,13 +386,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 11"/>
 			</action>
@@ -421,13 +421,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
 				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 12"/>
 			</action>
@@ -456,13 +456,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="2"/>
 				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 13"/>
 			</action>
@@ -491,13 +491,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
 				<parameter name="startLane" value="2"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 14"/>
 			</action>
@@ -526,13 +526,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 15"/>
 			</action>
@@ -561,13 +561,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
 				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 16"/>
 			</action>
@@ -596,13 +596,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="0"/>
 				<parameter name="startLane" value="1"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 17"/>
 			</action>
@@ -631,13 +631,13 @@
 				<parameter name="minSteeringAngle" value="0"/>
 				<parameter name="targetLane" value="1"/>
 				<parameter name="startLane" value="0"/>
-				<parameter name="taskCompletionAfterDistance" value="117"/>
-				<parameter name="taskCompletionAfterTime" value="7000"/>
+				<parameter name="taskCompletionAfterDistance" value="110"/>
+				<parameter name="taskCompletionAfterTime" value="3600"/>
 				<parameter name="timerID" value="timer1"/>
 				<parameter name="allowBrake" value="true"/>
 				<parameter name="successSound" value="good"/>
 				<parameter name="congruenceClass" value="LaneChange"/>
-				<parameter name="holdLaneFor" value="2000"/>
+				<parameter name="holdLaneFor" value="1000"/>
 				<parameter name="failSound" value="fail"/>
 				<parameter name="comment" value="Sign 18"/>
 			</action>
