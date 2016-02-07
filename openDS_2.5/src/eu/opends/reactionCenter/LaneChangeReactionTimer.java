@@ -94,7 +94,7 @@ public class LaneChangeReactionTimer extends ReactionTimer
 		}
 		else
 		{
-			System.err.println("Not in start lane " + startLane + "! Currently: " + getCurrentLane());
+			System.err.println("Not in start lane " + startLane + "! Currently: " + getCurrentLane());		
 			
 			// play sound when time/distance has been passed
 			this.startTime = System.currentTimeMillis();

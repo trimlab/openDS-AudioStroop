@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
-<comment>Test version 1 of 110 kph speed, audio at 46.26 m before sign bridge, hold lane 1000 ms, exceed time at 3600 ms, exceed distance at 110 m</comment>
+<comment>Training track cues at 46.26 m before sign bridges</comment>
 <entry key="interaction">interaction-track0.xml</entry>
 <entry key="verbose">false</entry>
 <entry key="scenario">scenario.xml</entry>
