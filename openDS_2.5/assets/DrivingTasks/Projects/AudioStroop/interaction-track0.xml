@@ -119,7 +119,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial2_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="toneR1"/>
+				<parameter name="soundID" value="toneL1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_makeVisible_BLC_Test_Block0_Trial3_ContainerElements" ref="">
@@ -154,7 +154,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial3_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="toneL2"/>
+				<parameter name="soundID" value="toneR2"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial4_Trigger0_makeVisible_BLC_Test_Block0_Trial4_ContainerElements" ref="">
@@ -504,7 +504,7 @@
 		</activity>
 		<activity id="BLC_Test_Block0_Trial13_Trigger0_Sound_Stimulus" ref="">
 			<action delay="0.0" id="playSound" repeat="1">
-				<parameter name="soundID" value="toneR1"/>
+				<parameter name="soundID" value="toneL1"/>
 			</action>
 		</activity>
 		<activity id="BLC_Test_Block0_Trial14_Trigger0_makeVisible_BLC_Test_Block0_Trial14_ContainerElements" ref="">
